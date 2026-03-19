@@ -23,7 +23,7 @@ public class ProdutoService {
     }
 
     public void delete(Long id) {
-        ProdutoRepository.deleteById(id);
+        produtoRepository.deleteById(id);
     }
 
     public ProdutoModel atualizar(Long id, ProdutoModel produtoModel) {
